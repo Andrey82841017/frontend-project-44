@@ -16,7 +16,9 @@ const game = () => {
     if (rightAnswer === userAnswer) {
       console.log("Correct!");
     } else {
-      console.log("Game over");
+      console.log(
+        `'${userAnswer}' is wrong answer ;(. Correct answer was '${rightAnswer}').Let's try again, ${Name}!`
+      );
       break;
     }
     carentAttempt += 1;
