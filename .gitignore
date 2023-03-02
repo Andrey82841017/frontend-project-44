@@ -43,3 +43,4 @@ doc
 .tool-versions
 .idea/
 app/assets/builds/
+/asciinema

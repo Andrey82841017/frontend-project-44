@@ -10,7 +10,7 @@ const game = () => {
   let carentAttempt = 0;
 
   while (carentAttempt < 3) {
-    const randomNumber = Math.floor(Math.random() * 10);
+    const randomNumber = Math.floor(Math.random() * 100);
     const rightAnswer = randomNumber % 2 === 0 ? "yes" : "no";
     const userAnswer = readlineSync.question(`Question: ${randomNumber} `);
     if (rightAnswer === userAnswer) {
